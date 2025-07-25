@@ -1,0 +1,58 @@
+.support-the-protest {
+  background: var(--light-text);
+  color: var(--dark-bg);
+  padding: 110px 10vw 55px;
+  text-align: center;
+}
+
+.support-the-protest h2 {
+  color: var(--accent-orange);
+  max-width: 650px;
+  font-size: 2.5rem;
+  margin: auto;
+  margin-bottom: 1.2rem;
+  font-family: var(--headline-font);
+}
+
+.support-the-protest p {
+  font-family: var(--body-font);
+  font-size: 1.4rem;
+  max-width: 800px;
+  margin: 0 auto 1rem;
+}
+
+
+
+@media (max-width: 1150px) {
+.support-the-protest {
+  padding: 110px 10vw 53px;
+}
+
+.support-the-protest h2 {
+  width: 75%;
+  font-size: 2.1rem;
+  margin-bottom: 1rem;
+}
+
+.support-the-protest p {
+  max-width: 100%;
+  margin: 0 auto 0.8rem;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.support-the-protest {
+  padding: 95px 8vw 45px;
+}
+
+.support-the-protest h2 {
+  width: 100%;
+  font-size: 1.9rem;
+}
+
+.support-the-protest p {
+  margin: 0 auto 0.6rem;
+}
+}

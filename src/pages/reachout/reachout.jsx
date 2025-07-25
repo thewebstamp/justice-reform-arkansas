@@ -1,5 +1,9 @@
 import { Helmet } from 'react-helmet-async';
 import Header from '../../components/header/header.jsx';
+import Footer from '../../components/footer/footer.jsx';
+import Donation from '../../components/donation/donation.jsx';
+import SupportTheProtest from '../../components/supportTheProtest/supportTheProtest.jsx';
+import TaxDeductibleSecure from '../../components/taxDeductibleSecure/taxDeductibleSecure.jsx';
 
 function Reachout() {
     return (
@@ -22,6 +26,10 @@ function Reachout() {
 
             <div className="reachout">
                 <Header reachout="active" />
+                <SupportTheProtest />
+                <Donation />
+                <TaxDeductibleSecure />
+                <Footer reachout='active' />
             </div>
         </>
     )
