@@ -1,0 +1,63 @@
+.voice-matters-section {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  padding: 40px 10vw 50px;
+  text-align: center;
+}
+
+.voice-matters-section h2 {
+  font-weight: 700;
+  font-family: var(--headline-font);
+  color: var(--highlight-yellow);
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.voice-matters-section p {
+  font-family: var(--body-font);
+  font-size: 1.4rem;
+  font-weight: 300;
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+}
+
+.voice-matters-section blockquote {
+  font-family: var(--quote-font);
+  font-style: italic;
+  margin-top: 2rem;
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: var(--highlight-yellow);
+}
+
+
+
+@media (max-width: 1150px) {
+.voice-matters-section {
+  padding: 40px 10vw 55px;
+}
+
+.voice-matters-section h2 {
+  font-size: 2.1rem;
+}
+
+.voice-matters-section p {
+  margin: 0 auto 0.8rem auto;
+}
+
+.voice-matters-section blockquote {
+  margin-top: 1.5rem;;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.voice-matters-section {
+  padding: 45px 8vw;
+}
+
+.voice-matters-section h2 {
+  font-size: 1.9rem;
+}
+}

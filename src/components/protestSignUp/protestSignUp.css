@@ -1,0 +1,85 @@
+.protest-signup {
+  background-color: var(--dark-bg);
+  color: var(--light-text);
+  padding: 45px 10vw 10px;
+  text-align: center;
+}
+
+.protest-signup h2 {
+  font-family: var(--headline-font);
+  font-size: 2.5rem;
+  color: var(--highlight-yellow);
+  margin-bottom: 15px;
+}
+
+.protest-signup p {
+  font-family: var(--body-font);
+  font-size: 1.4rem;
+  font-weight: 300;
+  margin-bottom: 30px;
+  max-width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.signup-form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  max-width: 500px;
+  margin: 0 auto;
+}
+
+.signup-form input {
+  padding: 12px 15px;
+  border: none;
+  border-radius: 5px;
+  font-family: var(--body-font);
+  font-size: 1.2rem;
+}
+
+.signup-form button {
+  padding: 12px 20px;
+  font-size: 1.2rem;
+  font-family: var(--headline-font);
+  background-color: var(--primary-color);
+  color: var(--light-text);
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.signup-form button:hover {
+  background-color: var(--accent-orange);
+}
+
+.status {
+  margin-top: 10px;
+  font-size: 0.95rem;
+  color: var(--highlight-yellow);
+}
+
+
+
+@media (max-width: 1150px) {
+.protest-signup {
+  padding: 45px 10vw 10px;
+}
+
+.protest-signup h2 {
+  font-size: 2.1rem;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.protest-signup {
+  padding: 45px 8vw 2px;
+}
+
+.protest-signup h2 {
+  font-size: 1.9rem;
+}
+}

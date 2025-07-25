@@ -1,0 +1,154 @@
+.header-container {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px 5vw 5px;
+  background: var(--light-text);
+}
+
+.header img.logo {
+  width: 172px;
+  height: auto;
+  padding: 0;
+}
+
+.header nav ul {
+  display: flex;
+  gap: 35px;
+}
+
+.header nav li.active a::after,
+.header nav li a:hover::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 2.8px;
+  background: var(--highlight-yellow);
+  margin-top: 0px;
+}
+
+.header nav li a:hover::after {
+  width: 25%;
+}
+
+.header nav li a {
+  font-weight: 700;
+  color: var(--dark-bg);
+  font-size: 17.9px;
+  letter-spacing: 0.3px;
+  font-family: var(--body-font);
+  text-decoration: none;
+}
+
+.header .menu-toggle {
+  display: none;
+  position: relative;
+  width: 30px;
+  height: 3px;
+  background: var(--dark-bg);
+  cursor: pointer;
+  border: none;
+}
+
+.header .menu-toggle::before,
+.header .menu-toggle::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  z-index: 1100;
+  width: 100%;
+  height: 3px;
+  background: var(--dark-bg);
+  transition: 0.3s ease;
+}
+.header .menu-toggle::before {
+  top: -9px;
+}
+.header .menu-toggle::after {
+  bottom: -9px;
+}
+
+/* Responsive styles */
+@media (max-width: 1150px) {
+  .header {
+    padding: 17px 5vw 5px;
+  }
+
+  .header img.logo {
+    width: 140px;
+  }
+
+  .header nav ul {
+    gap: 25px;
+  }
+
+  .header nav li a {
+    font-size: 17.8px;
+  }
+}
+
+@media (max-width: 685px) {
+  .header {
+    padding: 11px 5vw 7px;
+  }
+
+  .header img.logo {
+    width: 127px;
+  }
+
+  .header nav ul {
+    transition: 0.5s;
+    padding-top: 130px;
+    position: absolute;
+    top: 0;
+    right: -100%;
+    flex-direction: column;
+    gap: 55px;
+    z-index: 1000;
+    width: 100%;
+    height: 100vh;
+    background: var(--light-text);
+  }
+
+  .header nav ul.show-menu {
+    right: 0%;
+  }
+
+  .header nav li {
+    width: fit-content;
+    margin: 0 auto;
+  }
+
+  .header nav li a {
+    font-size: 18.8px;
+  }
+
+  .header .menu-toggle {
+    display: block;
+  }
+
+  .header .menu-toggle.open {
+    background: transparent;
+  }
+
+  .header .menu-toggle.open::before {
+    transform: rotate(45deg);
+    top: 0;
+    background: var(--primary-color);
+  }
+
+  .header .menu-toggle.open::after {
+    transform: rotate(-45deg);
+    bottom: 0;
+    background: var(--primary-color);
+  }
+}

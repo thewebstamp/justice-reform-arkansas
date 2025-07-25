@@ -1,0 +1,57 @@
+.protest-summary {
+  background-color: var(--dark-bg);
+  padding: 45px 10vw 50px;
+  text-align: center;
+  border-top: 4px solid var(--primary-color);
+  border-bottom: 4px solid var(--primary-color);
+}
+
+.protest-summary h2 {
+  width: 64%;
+  font-weight: 700;
+  font-family: var(--headline-font);
+  font-size: 2.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  color: var(--highlight-yellow);
+}
+
+.protest-summary p {
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: 1.4rem;
+  color: var(--light-text);
+  width: 80%;
+  margin: 0 auto 1.2rem auto;
+}
+
+
+
+@media (max-width: 1150px) {
+.protest-summary {
+  padding: 45px 10vw 55px;
+}
+
+.protest-summary h2 {
+  width: 80%;
+  font-size: 2.1rem;
+}
+
+.protest-summary p {
+  width: 100%;
+  margin: 0 auto 1.2rem auto;
+}
+}
+
+
+
+@media (max-width: 685px) {
+.protest-summary {
+  padding: 45px 8vw;
+}
+
+.protest-summary h2 {
+  width: 100%;
+  font-size: 1.9rem;
+}
+}

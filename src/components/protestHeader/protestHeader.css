@@ -1,0 +1,55 @@
+.protest-header {
+  background: var(--dark-bg);
+  color: var(--light-text);
+  padding: 130px 10vw 45px;
+  text-align: center;
+}
+
+.protest-header-content {
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.protest-header h2 {
+  width: 80%;
+  font-weight: 700;
+  font-family: var(--headline-font);
+  font-size: 2.5rem;
+  margin: auto;
+  margin-bottom: 1rem;
+  color: var(--highlight-yellow);
+}
+
+.protest-header .lead {
+  font-family: var(--body-font);
+  font-weight: 300;
+  font-size: 1.4rem;
+  margin: 0 auto 1rem auto;
+}
+
+
+
+
+@media (max-width: 1150px) {
+.protest-header {
+  padding: 130px 10vw 40px;
+}
+
+.protest-header h2 {
+  font-size: 2.1rem;
+}
+}
+
+
+
+
+@media (max-width: 685px) {
+.protest-header {
+  padding: 105px 8vw 30px;
+}
+
+.protest-header h2 {
+  width: 100%;
+  font-size: 1.9rem;
+}
+}

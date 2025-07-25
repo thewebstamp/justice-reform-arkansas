@@ -1,0 +1,55 @@
+.stories-cta {
+  background-color: var(--dark-bg);
+  padding: 45px 10vw 55px;
+  text-align: center;
+}
+
+.stories-cta h2 {
+  font-family: var(--headline-font);
+  font-size: 2.5rem;
+  color: var(--highlight-yellow);
+  margin-bottom: 1rem;
+}
+
+.stories-cta p {
+  font-family: var(--body-font);
+  font-size: 1.4rem;
+  font-weight: 300;
+  color: var(--light-text);
+  max-width: 800px;
+  margin: 1rem auto;
+}
+
+
+
+
+@media (max-width: 1150px) {
+.stories-cta {
+  padding: 43px 10vw 55px;
+}
+
+.stories-cta h2 {
+  font-size: 2.1rem;
+}
+
+.stories-cta p {
+  margin: 0.5rem auto;
+}
+}
+
+
+
+
+@media (max-width: 685px) {
+.stories-cta {
+  padding: 43px 8vw;
+}
+
+.stories-cta h2 {
+  font-size: 1.9rem;
+}
+
+.stories-cta p {
+  margin: 0.5rem auto;
+}
+}
