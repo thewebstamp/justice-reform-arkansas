@@ -18,7 +18,7 @@ function ProtestSignUp() {
     setStatus('Submitting...');
 
     try {
-      const res = await fetch('http://localhost:5000/api/protest-signup', {
+      const res = await fetch('https://backend-justice-reform.onrender.com/api/protest-signup', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
