@@ -15,7 +15,7 @@ function EventDetails() {
                 <div className="details-text">
                     <ul>
                         <li>
-                            <strong>Date:</strong> Friday, August 2nd, 2025
+                            <strong>Date:</strong> Saturday, August 2nd, 2025
                         </li>
                         <li>
                             <strong>Time:</strong> 12:00 PM – 3:00 PM
