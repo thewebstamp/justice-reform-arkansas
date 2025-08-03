@@ -5,10 +5,10 @@ const WhyYourVoiceMatters = () => {
     <section className="voice-matters-section">
       <h2>Your Voice Matters</h2>
       <p>
-        Too many people have suffered in silence under a system built to exploit and oppress. Every time we raise our voice, we weaken the grip of injustice.
+        Too many people have suffered in silence under a system where the most vulnerable are often overlooked. Every time we speak up, we bring attention to those who have been forgotten or mistreated.
       </p>
       <p>
-        This protest is not just about one case — it’s about exposing an entire system of abuse, greed, and corruption in Craighead County. We protest because people are being locked away unlawfully, because families are being destroyed, and because no one in power is being held accountable.
+        This protest is not about attacking institutions — it’s about demanding fairness, dignity, and oversight. We are coming together to advocate for humane treatment, transparency, and true justice in Craighead County and beyond.
       </p>
       <blockquote>
         “Speak up for those who cannot speak for themselves...” — Proverbs 31:8

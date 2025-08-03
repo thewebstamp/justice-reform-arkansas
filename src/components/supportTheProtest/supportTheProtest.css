@@ -21,6 +21,10 @@
   margin: 0 auto 1rem;
 }
 
+.donate-direct {
+  color: var(--accent-orange);
+  padding-top: 1rem;
+}
 
 
 @media (max-width: 1150px) {

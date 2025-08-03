@@ -15,7 +15,7 @@ function EventDetails() {
                 <div className="details-text">
                     <ul>
                         <li>
-                            <strong>Date:</strong> Saturday, August 2nd, 2025
+                            <strong>Date:</strong> Saturday, August ---, 2025
                         </li>
                         <li>
                             <strong>Time:</strong> 12:00 PM – 3:00 PM
@@ -25,7 +25,7 @@ function EventDetails() {
                         </li>
                     </ul>
                     <p className="reminder">
-                        Bring water, signs, and your voice. This will be a peaceful protest centered on truth, accountability, and justice for those who’ve been silenced.
+                        Bring water, signs, and your voice. This is a peaceful gathering to raise awareness and call for more humane treatment of inmates. Every person deserves dignity, safety, and justice.
                     </p>
                 </div>
 

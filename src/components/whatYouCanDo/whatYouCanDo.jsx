@@ -16,24 +16,24 @@ function WhatYouCanDo() {
             <div className="action-content">
                 <h2>What You Can Do</h2>
                 <p className="subheadingWYCD">
-                    Justice demands action. Here’s how you can take a stand — starting today.
+                    We believe every person deserves to be treated with dignity. Here’s how you can help call attention to the inhumane treatment happening in local jails.
                 </p>
 
                 <ul className="action-list">
                     <li>
-                        <span className="highlight">Learn the Truth:</span> Read the stories, review the facts, and understand what’s happening in Craighead County.
+                        <span className="highlight">Get Informed:</span> Understand the concerns being raised about the treatment of inmates in Craighead County. Read real reports and testimonies.
                     </li>
                     <li>
-                        <span className="highlight">Spread Awareness:</span> Share this site with friends, churches, and community groups. Let others know what’s been hidden in plain sight.
+                        <span className="highlight">Spread Awareness:</span> Share this website with others — churches, families, and local communities. The more people who know, the stronger our voice becomes.
                     </li>
                     <li>
-                        <span className="highlight">Sign Up to Protest:</span> Let us know you’re coming to Jonesboro on August 2nd. Your presence gives strength to this movement.
+                        <span className="highlight">Join the Protest:</span> Show up in Jonesboro on August --- for a peaceful demonstration calling for humane conditions and accountability.
                     </li>
                     <li>
-                        <span className="highlight">Help Organize:</span> Donate supplies, volunteer your time, or offer services. Every bit helps us prepare and protect those taking a stand.
+                        <span className="highlight">Support the Cause:</span> Help by donating water, signs, or other supplies — or by offering your time to help us organize responsibly.
                     </li>
                     <li>
-                        <span className="highlight">Stay Grounded in Faith:</span> Keep praying, stay informed, and trust that justice can prevail when we stand together.
+                        <span className="highlight">Pray and Stay United:</span> Keep this mission rooted in faith and compassion. Justice begins with standing together for what's right.
                     </li>
                 </ul>
 

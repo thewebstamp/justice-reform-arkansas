@@ -11,27 +11,27 @@ function AbuseSection() {
       transition={{ duration: 0.8 }}
       viewport={{ once: true }}
     >
-      <img src={images.imprisonment} alt="Craighead County Abusing the Law" />
+      <img src={images.imprisonment} alt="Craighead County Jail Conditions" />
       <div className="abuse-container">
-        <h2>Craighead County Is Profiting Off of False Imprisonment</h2>
+        <h2>Inhumane Conditions Must Be Addressed</h2>
         <p className="subheading">
-          Here in Craighead County, justice isn’t about truth — it’s about money, power, and control. And the people are paying the price.
+          Detainees in Craighead County are reporting disturbing treatment, raising serious human rights concerns. These issues must be taken seriously by the public and officials alike.
         </p>
 
         <ul className="abuse-points">
           <li>
-            <strong>Invented Charges:</strong> People are being prosecuted under laws that don’t even exist in Arkansas code.
+            <strong>Unsafe Conditions:</strong> Overcrowding, lack of basic hygiene, and poor ventilation are affecting inmates' well-being.
           </li>
           <li>
-            <strong>Plea Deal Extortion:</strong> Defendants are threatened with decades in prison unless they accept deals — even if innocent.
+            <strong>Medical Neglect:</strong> Individuals are being denied adequate medical attention, even in cases of serious health concerns.
           </li>
           <li>
-            <strong>Motions Silenced:</strong> Judges routinely deny key motions and block evidence without explanation.
+            <strong>Emotional and Physical Harm:</strong> Reports suggest psychological stress and physical abuse without proper oversight.
           </li>
         </ul>
 
         <p className="closing-message">
-          This is more than corruption — it’s evil hiding in plain sight. And it won’t stop until we expose it. Join us on August 2nd in Jonesboro. Raise your voice, stand your ground, and demand justice.
+          No one should be treated this way. We’re asking for transparency, accountability, and humane conditions for every person being held in custody. Join us on August --- to speak out for justice and dignity.
         </p>
       </div>
     </motion.section>

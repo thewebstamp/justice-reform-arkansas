@@ -6,9 +6,9 @@ const ProtestSummary = () => {
 
   return (
     <section className="protest-summary">
-      <h2>One County. Countless Victims. We Won’t Stay Silent.</h2>
+      <h2>One County. Too Many Suffering. We Can’t Stay Silent.</h2>
       <p>
-        On <strong>August 2nd at 12 PM</strong>, we’re coming together at the <strong>Craighead County Courthouse</strong> to stand against corruption and injustice in Northeast Arkansas. This peaceful protest is our opportunity to speak truth, defend the innocent, and show the community that justice still matters.
+        On <strong>August --- at 12 PM</strong>, we’re gathering peacefully at the <strong>Craighead County Courthouse</strong> to raise awareness about the inhumane treatment of inmates in local detention centers. This protest is a stand for human dignity and a call for accountability in how people are being treated behind bars.
       </p>
       <button onClick={() => {navigate('/protest')}} className="cta-button-ps">
         <a href="#">I'll Be There</a>

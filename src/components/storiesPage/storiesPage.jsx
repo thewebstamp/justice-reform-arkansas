@@ -1,39 +1,66 @@
-// src/pages/Stories.jsx
-
-import React from 'react';
 import './storiesPage.css';
 import { motion } from 'framer-motion';
 
 const stories = [
   {
-    emoji: "🤐",
-    title: "Invention of Laws & Fueling Profits",
-    description: "A Craighead County prosecutor charged a man under a law that doesn’t exist in Arkansas. When challenged, the judge supported the charge. This same judge has a known financial connection to a local private probation company that profits from court referrals.",
+    emoji: "🧫",
+    title: "Black Mold & Falling Infrastructure",
+    description: (
+      <>
+        Former inmates and civil complaints describe black mold, leaking roofs, and crumbling walls at Craighead County Detention Center—conditions linked to respiratory problems and unsafe living environments.{" "}
+        <a href="https://www.humanrightsdefensecenter.org/action/news/2019/pln-editor-quoted-re-toxic-conditions-black-mold-arkansas-jail/" target="_blank" rel="noopener noreferrer">
+          Read more
+        </a>
+      </>
+    ),
   },
   {
-    emoji: "🧾",
-    title: "The Pay-to-Leave Trap",
-    description: "Multiple residents report being jailed for minor traffic violations with bail amounts far beyond their means. Judges imposed exaggerated fines, and those who couldn’t pay remained in jail for weeks. One single mother was held for 38 days for an unpaid seatbelt ticket.",
-  },
-  {
-    emoji: "🩺",
-    title: "Death from Medical Negligence",
-    description: "A diabetic inmate repeatedly begged for insulin. Despite visible signs of a medical crisis, he was denied care and later found unresponsive in his cell. Staff dismissed the emergency as an 'overreaction' until it was too late. His death was ruled 'natural causes'.",
-  },
-  {
-    emoji: "🧊",
-    title: "Torture by Isolation",
-    description: "Several inmates report being placed in solitary confinement for over 20 days without explanation — a direct violation of state policy. Lights are kept on 24/7, meals are inconsistent, and basic human contact is denied. One man tried to take his own life after 14 days in isolation.",
+    emoji: "⚰️",
+    title: "Wrongful Death Lawsuit in Custody",
+    description: (
+      <>
+        A wrongful death lawsuit was filed after Brock Tyner died in custody in May 2024. The suit alleges he was denied medical attention and never evacuated to a hospital despite pleas.{" "}
+        <a href="https://jonesbororightnow.com/news/268862-lawsuit-filed-in-ccdc-inmates-death/" target="_blank" rel="noopener noreferrer">
+          Read more
+        </a>
+      </>
+    ),
   },
   {
     emoji: "📜",
-    title: "Beaten and Betrayed",
-    description: "A 19-year-old man arrested for a misdemeanor was found bruised and bloody within 48 hours of entering the Craighead County Detention Center. Guards allegedly turned off cameras before entering his cell and attacking him. His requests for a lawyer and medical attention were ignored.",
+    title: "Settlement Petition Withdrawn",
+    description: (
+      <>
+        A proposed $900K settlement from Tyner’s estate and a contracted nursing provider was withdrawn due to pending completion. The suit highlighted allegations of constitutional violations due to delayed medical care.{" "}
+        <a href="https://neareport.com/2025/05/20/900000-settlement-reached-in-wrongful-death-lawsuit-against-jail-nursing-provider/" target="_blank" rel="noopener noreferrer">
+          Read more
+        </a>
+      </>
+    ),
   },
   {
-    emoji: "🚨",
-    title: "Arrested for Speaking Up",
-    description: "A local pastor was jailed for publicly criticizing the judicial system and calling out abuse in the detention center. No criminal offense was cited — only a vague claim of 'interference with public operations'. He was released only after public pressure.",
+    emoji: "🏗️",
+    title: "Overcrowding Sparks Emergency Bunk Construction",
+    description: (
+      <>
+        The jail exceeded its designed capacity—housing roughly 400 inmates in a facility built for ~160. Local vocational students were brought in to build new bunks to ease overcrowding.{" "}
+        <a href="https://jonesbororightnow.com/news/268862-neactc-building-new-bunks-for-craighead-county-jail/" target="_blank" rel="noopener noreferrer">
+          Read more
+        </a>
+      </>
+    ),
+  },
+  {
+    emoji: "⛔",
+    title: "Act 309 Work Program Suspended",
+    description: (
+      <>
+        Craighead County suspended Arkansas’s Act-309 inmate labor program amid severe overcrowding and safety concerns—highlighting pressures on jail operations and detainee treatment.{" "}
+        <a href="https://www.kait8.com/2025/03/10/craighead-county-detention-center-suspends-309-program/" target="_blank" rel="noopener noreferrer">
+          Read more
+        </a>
+      </>
+    ),
   }
 ];
 
@@ -46,7 +73,7 @@ export default function Stories() {
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.6 }}
       >
-        Real Stories. Real Injustice.
+        Verified Reports. Real Conditions.
       </motion.h1>
 
       <div className="stories-grid">

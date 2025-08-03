@@ -24,7 +24,7 @@ function Protest() {
                 <meta property="og:type" content="website" />
 
                 <meta name="twitter:card" content="summary_large_image" />
-                <meta name="twitter:title" content="Protest on August 2 | Justice Reform for Arkansas" />
+                <meta name="twitter:title" content="Protest on August --- | Justice Reform for Arkansas" />
                 <meta name="twitter:description" content="Join the peaceful protest demanding justice for those wrongfully imprisoned in Craighead County. Your voice matters." />
             </Helmet>
 

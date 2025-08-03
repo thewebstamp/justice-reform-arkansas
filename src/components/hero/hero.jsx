@@ -15,12 +15,12 @@ function Hero() {
           animate={{ opacity: 1, y: 0 }} 
           transition={{ duration: 1.2 }}
         >
-          <h1>It’s Time to Stand for Justice in Craighead County</h1>
+          <h1>Stand for Dignity and Justice in Craighead County</h1>
           <p>
-            Expose the corruption. Defend the innocent. Join the movement to stop false imprisonment and abuse in Jonesboro, Arkansas.
+            Reports of inhumane treatment and abuse in local detention centers cannot be ignored. Join us in raising awareness and demanding change in Jonesboro, Arkansas.
           </p>
           <button onClick={() => navigate('/protest')}>
-            <a href="#">📢 Join the Protest – August 2nd</a>
+            <a href="#">📢 Join the Protest – August ---</a>
           </button>
         </motion.div>
 
@@ -30,7 +30,7 @@ function Hero() {
           animate={{ opacity: 1, scale: 1 }}
           transition={{ duration: 1.4 }}
         >
-          <img src={images.heroImage} alt="Justice corruption imagery" />
+          <img src={images.heroImage} alt="Justice and advocacy illustration" />
         </motion.div>
       </div>
     </section>

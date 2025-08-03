@@ -3,7 +3,7 @@ import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
 const StoriesCTA = () => {
-    const navigate = useNavigate();
+  const navigate = useNavigate();
 
   return (
     <motion.div
@@ -13,15 +13,15 @@ const StoriesCTA = () => {
       viewport={{ once: true }}
       transition={{ duration: 0.6 }}
     >
-      <h2>These Stories Demand Action</h2>
+      <h2>These Stories Demand Compassion</h2>
       <p>
-        The corruption in Craighead County has destroyed lives, torn families apart, and buried truth behind locked doors. These stories are not isolated — they are part of a system that profits from injustice.
+        What’s happening inside some Arkansas detention centers, including Craighead County, raises deep concerns about basic human dignity. Numerous reports from former inmates and families describe long-term isolation, denial of medical care, and other inhumane treatment.
       </p>
       <p>
-        If you or a loved one has been affected by this corrupt system, we encourage you to share your story. Your voice matters, and together, we can expose the truth and demand change.
+        These are not isolated stories. They reflect a pattern of suffering that must be addressed. If you or someone you know has experienced mistreatment behind bars, your voice could help bring much-needed reform.
       </p>
-      <button onClick={() => {navigate('/protest')}} className="cta-button-ps">
-        <a href="#">Join the Protest</a>
+      <button onClick={() => navigate('/protest')} className="cta-button-ps">
+        Join the Protest
       </button>
     </motion.div>
   );

@@ -11,7 +11,7 @@ const WhyItMatters = () => (
   >
     <h2>Why It Matters</h2>
     <p>
-      In Craighead County, lives are being shattered by a justice system that has twisted the law for profit. People are locked away on false charges, silenced by fear, and denied the protections the Constitution promises. If we stay silent, the abuse will continue. This movement matters because real lives, real families, and real futures are at stake.
+      In Craighead County and beyond, people held in detention are reporting inhumane conditions, mistreatment, and a lack of accountability. These are not just stories — they are cries for help from real individuals and families. This movement matters because standing up for human dignity, due process, and compassionate justice is not just important — it's our moral responsibility.
     </p>
   </motion.section>
 );

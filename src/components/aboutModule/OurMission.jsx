@@ -11,7 +11,7 @@ const OurMission = () => (
     >
         <h2>Our Mission</h2>
         <p>
-            Justice Reform for Arkansas is committed to exposing the injustice, greed, and cruelty happening in Arkansas especially Craighead County’s justice system. Our mission is to defend the innocent, uplift the falsely accused, and speak the truth about a system that profits off of pain — all while being guided by the courage, conviction, and compassion found in Christ.
+            Justice Reform for Arkansas is committed to shining a light on the inhumane treatment of inmates in local detention centers — especially in Craighead County. Our mission is to stand for human dignity, speak up for those who cannot, and encourage reform through peaceful action.
         </p>
     </motion.section>
 );

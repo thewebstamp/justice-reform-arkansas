@@ -55,6 +55,10 @@
   font-family: var(--body-font);
 }
 
+.story-card a {
+  color: var(--accent-orange);
+}
+
 
 
 @media (max-width: 1150px) {

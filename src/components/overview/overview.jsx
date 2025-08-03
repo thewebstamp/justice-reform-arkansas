@@ -16,15 +16,15 @@ function Overview() {
       <div className="overview-content">
         <h2>What’s Happening in Craighead County?</h2>
         <p>
-          The justice system in Northeast Arkansas — especially in Jonesboro and Craighead County — is being weaponized for profit. Judges and prosecutors are putting people in prison on bogus charges. They’re inventing laws, twisting justice, and lying about what’s legal — all to line their pockets at the expense of the people.
+          Inmates in the Craighead County Detention Center are facing conditions that raise serious concerns about human rights. From overcrowding to lack of medical care, what’s happening behind closed doors must not be ignored.
         </p>
 
         <p>
-          <b>But now, the truth is coming to light.</b>
+          <b>Now is the time to speak up.</b>
         </p>
 
         <p>
-          Now is our chance to be the voice for the voiceless — a rally cry for those who’ve been silenced. It’s time to rise together and demand justice for the oppressed.
+          We believe in justice, dignity, and the humane treatment of every person — no matter who they are or where they come from. Together, we can shine a light on what’s happening and call for accountability.
         </p>
       </div>
     </motion.section>

@@ -14,8 +14,22 @@ function Home() {
     return (
         <>
             <Helmet>
-                <title>Truth in the Air and Water | Awareness on Chemtrails, Food & Water Safety</title>
-                <meta name="description" content="Explore the hidden dangers in our skies, food, and water. Truth in the Air and Water is dedicated to raising awareness about chemtrails and toxic exposure affecting our health and environment." />
+                <title>Justice Reform for Arkansas | Stand Against Abuse in Craighead County</title>
+                <meta
+                    name="description"
+                    content="Justice Reform for Arkansas is a movement standing up against inhumane treatment, neglect, and wrongful imprisonment in the Craighead County Detention Center. Join the peaceful protest August --- in Jonesboro."
+                />
+                <meta property="og:type" content="website" />
+                <meta property="og:url" content="https://justice-reform-arkansas.netlify.app/" />
+                <meta property="og:title" content="Justice Reform for Arkansas | Stand Against Abuse in Craighead County" />
+                <meta property="og:description"
+                    content="Join us August --- in Jonesboro, Arkansas as we peacefully protest reported abuse and inhumane treatment inside the Craighead County Detention Center. Stand for truth, dignity, and justice." />
+
+                <meta name="twitter:card" content="summary_large_image" />
+                <meta name="twitter:url" content="https://justice-reform-arkansas.netlify.app/" />
+                <meta name="twitter:title" content="Justice Reform for Arkansas | Stand Against Abuse in Craighead County" />
+                <meta name="twitter:description"
+                    content="Join the August --- protest in Jonesboro. Stand with us against reported abuse and inhumane treatment in Craighead County Detention Center." />
             </Helmet>
 
             <div className="homepage">

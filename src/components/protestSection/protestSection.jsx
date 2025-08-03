@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { motion } from 'framer-motion';
 import { useNavigate } from 'react-router-dom';
 
-const targetDate = new Date('2025-08-02T00:00:00');
+const targetDate = new Date('2025-08-16T00:00:00');
 
 function ProtestSection() {
     const navigate = useNavigate();
@@ -49,10 +49,10 @@ function ProtestSection() {
         >
             <h2>Join the Protest for Justice</h2>
             <p>
-                On <strong>August 2nd, 2025</strong>, we’re gathering at the Craighead County Courthouse in Jonesboro to expose the lies, greed, and cruelty destroying lives in Northeast Arkansas. Innocent people are being locked away for profit, based on false charges and fake laws—while judges and prosecutors pocket the rewards.
+                On <strong>August ---, 2025</strong>, we’re gathering at the Craighead County Courthouse in Jonesboro to raise awareness about the mistreatment of inmates in the local detention center. Too many are suffering in silence under unsafe and inhumane conditions.
             </p>
             <p>
-                This is more than a protest. It’s a stand against evil. A cry for justice. And a move of God. We’re calling on every Arkansan — and every believer in truth — to rise up, speak out, and shine a light in the darkness. The system is broken. But together, we can break the silence.
+                This protest is a peaceful call for justice, dignity, and change. We’re inviting people of faith, community leaders, and concerned citizens to come stand together for humane treatment and oversight. Together, we can make a difference.
             </p>
 
             {isDday ? (
@@ -79,7 +79,7 @@ function ProtestSection() {
             )}
 
             <button onClick={() => {navigate('/protest')}} className="cta-button-ps">
-                <a href="#">Stand With Us on August 2nd</a>
+                <a href="#">Stand With Us on August ---</a>
             </button>
         </motion.section>
     );
